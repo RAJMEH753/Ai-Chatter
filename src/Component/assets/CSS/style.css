@@ -1,0 +1,44 @@
+.background{
+    background-color: #130f40;
+    background-image: linear-gradient(315deg, #130f40 0%, #000000 74%);
+    height: 100vh;
+    margin: -8px;
+}
+
+.question{
+    position: absolute;
+    left: 27%;
+    top: 12%;
+    width: 40em;
+    padding: 13px 40px 13px 20px;
+    border-radius: 25px;
+    border: none;
+    outline: none;
+    background-color: #e1e1e1db;
+    font-size: 15px;
+}
+
+button{
+    background-color: #02022b;
+    color: white;
+    position: absolute;
+    left: 72.8%;
+    top: 12.5%;
+    border-radius: 25px;
+    height: 38px;
+    border: none;
+    outline: none;
+    width: 38px;
+}
+
+p{
+    color: white;
+    width: 50em;
+    text-align: justify;
+    border: 2px solid white;
+    padding: 10px;
+    overflow-wrap: anywhere;
+    position: absolute;
+    top: 7em;
+    left: 17em;
+}
