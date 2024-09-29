@@ -1,7 +1,7 @@
 const { OpenAI } = require("openai");
 
 const baseURL = "https://api.aimlapi.com/v1";
-const apiKey = "0be694e79a51494cbabfedeaff8c859d";
+const apiKey = process.env.REACT_APP_API_KEY;
 const systemPrompt = "you are an assitant be freindly, short and factful";
 // const userPrompt = "Tell me about San Francisco";
 

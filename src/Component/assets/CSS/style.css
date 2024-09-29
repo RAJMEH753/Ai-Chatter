@@ -2,13 +2,10 @@
     background-color: #130f40;
     background-image: linear-gradient(315deg, #130f40 0%, #000000 74%);
     height: 100vh;
-    margin: -8px;
+    text-align: center;
 }
 
 .question{
-    position: absolute;
-    left: 27%;
-    top: 12%;
     width: 40em;
     padding: 13px 40px 13px 20px;
     border-radius: 25px;
@@ -21,9 +18,9 @@
 button{
     background-color: #02022b;
     color: white;
-    position: absolute;
-    left: 72.8%;
-    top: 12.5%;
+    position: relative;
+    left: -3%;
+    top: 5px;
     border-radius: 25px;
     height: 38px;
     border: none;
@@ -33,12 +30,21 @@ button{
 
 p{
     color: white;
-    width: 50em;
+    /* width: 50em; */
     text-align: justify;
     border: 2px solid white;
     padding: 10px;
     overflow-wrap: anywhere;
-    position: absolute;
-    top: 7em;
-    left: 17em;
+    /* position: absolute; */
+    /* top: 7em; */
+    /* left: 17em; */
+    margin: 2% 10%;
+}
+
+.form{
+    padding-top: 6%;
+}
+
+.resp{
+    text-align: -webkit-center;
 }

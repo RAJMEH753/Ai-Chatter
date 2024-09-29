@@ -19,15 +19,20 @@ const AiComponent = () => {
     return (
         <div className="background">
             <form onSubmit={handleSubmit}>
-                <input type="text" className="question" value={prompt} onChange={(a) => setPrompt(a.target.value)} />
-                <button type='submit'>
-                    <span className="material-symbols-outlined">
-                        search
-                    </span>
-                </button>
+                <div className='form'>
+                    <input type="text" className="question" value={prompt} onChange={(a) => setPrompt(a.target.value)} />
+                    <button type='submit'>
+                        <span className="material-symbols-outlined">
+                            search
+                        </span>
+                    </button>
+                </div>
             </form>
 
-            <p>{response}</p>
+            <div className='resp'>
+                <p>{response}</p>
+            </div>
+            
         </div>
     );
 };
