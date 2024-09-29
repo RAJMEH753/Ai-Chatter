@@ -30,14 +30,10 @@ button{
 
 p{
     color: white;
-    /* width: 50em; */
     text-align: justify;
     border: 2px solid white;
     padding: 10px;
     overflow-wrap: anywhere;
-    /* position: absolute; */
-    /* top: 7em; */
-    /* left: 17em; */
     margin: 2% 10%;
 }
 

@@ -30,7 +30,7 @@ const AiComponent = () => {
             </form>
 
             <div className='resp'>
-                <p>{response}</p>
+                { response ? <p>{response}</p> : null }
             </div>
             
         </div>
